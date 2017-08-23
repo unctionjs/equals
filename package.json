@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/equals",
   "version": "1.0.0",
-  "description": "",
+  "description": "Compares two values and attempts to discern if they are truly equal",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/equals#readme",
+  "repository": "github:unctionjs/equals",
+  "bugs": "https://github.com/unctionjs/equals/issues",
   "main": "transpiled/source.js",
   "nyc": {
     "require": [
@@ -58,6 +58,11 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/isarray": "2.0.0",
+    "@unction/isiterable": "2.0.0",
+    "@unction/isobject": "2.0.0",
+    "@unction/length": "1.0.0",
+    "@unction/type": "2.0.0",
+    "deep-eql": "3.0.0"
   }
 }
