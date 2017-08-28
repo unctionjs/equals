@@ -1,6 +1,6 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-extra-parens */
 import type from "@unction/type"
-import isIterable from "@unction/isfunctor"
+import isIterable from "@unction/isiterable"
 import isObject from "@unction/isobject"
 import isArray from "@unction/isarray"
 import length from "@unction/length"
