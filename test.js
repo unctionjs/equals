@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers, no-undefined */
 import {test} from "tap"
 
-import equals from "./source.js"
+import equals from "./"
 
 test(({ok, end}) => {
   ok(
