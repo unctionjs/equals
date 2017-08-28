@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/equals#readme",
   "repository": "github:unctionjs/equals",
   "bugs": "https://github.com/unctionjs/equals/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "nyc": {
     "require": [
       "babel-register"
@@ -64,6 +64,5 @@
     "@unction/length": "1.0.0",
     "@unction/type": "2.0.0",
     "deep-eql": "3.0.0"
-  },
-  "main": "transpiled/index.js"
+  }
 }
