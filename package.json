@@ -57,11 +57,11 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "@unction/isarray": "2.3.0",
-    "@unction/isiterable": "2.3.0",
-    "@unction/isobject": "2.3.0",
-    "@unction/length": "1.3.0",
-    "@unction/type": "2.3.0",
+    "@unction/isarray": "2.5.0",
+    "@unction/isiterable": "2.5.0",
+    "@unction/isobject": "2.5.0",
+    "@unction/length": "1.5.0",
+    "@unction/type": "2.4.0",
     "deep-eql": "3.0.0"
   },
   "files": [
