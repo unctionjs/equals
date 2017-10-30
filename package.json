@@ -60,7 +60,7 @@
     "@unction/isarray": "2.8.0",
     "@unction/isiterable": "2.8.0",
     "@unction/isobject": "2.8.0",
-    "@unction/length": "1.28.0",
+    "@unction/length": "1.29.0",
     "@unction/type": "2.5.0",
     "deep-eql": "3.0.0"
   },
