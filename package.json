@@ -1,6 +1,6 @@
 {
   "name": "@unction/equals",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Compares two values and attempts to discern if they are truly equal",
   "keywords": [
     "unction",
