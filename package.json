@@ -59,10 +59,10 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/isarray": "4.0.0",
+    "@unction/isarray": "5.0.0",
     "@unction/isiterable": "2.15.0",
-    "@unction/isobject": "4.0.0",
-    "@unction/length": "3.0.0",
+    "@unction/isobject": "5.0.0",
+    "@unction/length": "4.0.0",
     "@unction/type": "3.0.0",
     "deep-eql": "3.0.0"
   },
