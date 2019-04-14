@@ -1,23 +1,23 @@
 /* eslint-disable no-magic-numbers, no-undefined */
-import {test} from "tap"
+import {test} from "tap";
 
-import equals from "./index"
+import equals from "./index";
 
 test(({ok, end}) => {
   ok(
     equals(true)(true)
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({ok, end}) => {
   ok(
     equals([1, 2, 3])([1, 2, 3])
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({ok, end}) => {
   ok(
@@ -28,66 +28,66 @@ test(({ok, end}) => {
       aaa: "aaa",
       bbb: "bbb",
     })
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({ok, end}) => {
   ok(
     equals("abc")("abc")
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({ok, end}) => {
   ok(
     equals(null)(null)
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({ok, end}) => {
   ok(
     equals(undefined)(undefined)
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
     equals(false)(true)
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
     equals([1, 2, 3])([3, 2, 1])
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
     equals([1, 2, 3])([1])
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
     equals([1, 2, 3])([])
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
@@ -95,10 +95,10 @@ test(({notOk, end}) => {
       aaa: "aaa",
       bbb: "bbb",
     })({aaa: "aaa"})
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
@@ -106,10 +106,10 @@ test(({notOk, end}) => {
       aaa: "aaa",
       bbb: "bbb",
     })({})
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
@@ -120,31 +120,31 @@ test(({notOk, end}) => {
       aaa: "bbb",
       bbb: "ccc",
     })
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
     equals("abc")("bac")
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
     equals(null)(undefined)
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
   notOk(
     equals(undefined)(null)
-  )
+  );
 
-  end()
-})
+  end();
+});

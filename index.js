@@ -4,8 +4,8 @@ import isObject from "@unction/isobject";
 import isArray from "@unction/isarray";
 import length from "@unction/length";
 import deepEql from "deep-eql";
-export default function equals(left) {
-  return function equalsLeft(right) {
+export default function equals (left) {
+  return function equalsLeft (right) {
     if (type(left) !== type(right)) {
       return false;
     }
