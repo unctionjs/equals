@@ -63,7 +63,6 @@
     "@unction/isobject": "6.5.0",
     "@unction/length": "10.5.0",
     "@unction/type": "4.2.0",
-    "core-js": "3.0.1",
     "deep-eql": "3.0.0"
   },
   "files": [
