@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers, no-undefined */
 import {test} from "tap";
 
-import equals from "./index";
+import equals from "./";
 
 test(({ok, end}) => {
   ok(
