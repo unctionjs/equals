@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed => mixed => boolean
+> L => R => boolean
 
 Compares two values and attempts to discern if they are truly equal.
 
