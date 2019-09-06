@@ -53,11 +53,11 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/isarray": "5.7.0",
-    "@unction/isenumerable": "4.6.0",
-    "@unction/isobject": "6.6.0",
-    "@unction/length": "10.6.0",
-    "@unction/type": "4.2.1",
+    "@unction/isarray": "5.8.0",
+    "@unction/isenumerable": "4.7.0",
+    "@unction/isobject": "6.7.0",
+    "@unction/length": "10.7.0",
+    "@unction/type": "5.0.0",
     "deep-eql": "3.0.0"
   },
   "files": [
