@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers, no-undefined */
-import equals from "./index.ts";
+import equals from "./index";
 
 test(() => {
   expect(equals(true)(true)).toBeTruthy();
